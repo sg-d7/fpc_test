@@ -1,0 +1,49 @@
+object Form1: TForm1
+  Left = 324
+  Height = 548
+  Top = 181
+  Width = 890
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 890
+  DesignTimePPI = 120
+  LCLVersion = '2.0.6.0'
+  object lvList: TListView
+    Left = 48
+    Height = 296
+    Top = 16
+    Width = 624
+    Columns = <    
+      item
+      end    
+      item
+      end    
+      item
+      end>
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+  object btnOpen: TButton
+    Left = 48
+    Height = 31
+    Top = 336
+    Width = 94
+    Caption = 'btnOpen'
+    OnClick = btnOpenClick
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 48
+    Height = 113
+    Top = 376
+    Width = 624
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 2
+  end
+  object dlgOpen: TOpenDialog
+    left = 216
+    top = 336
+  end
+end
